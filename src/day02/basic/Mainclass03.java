@@ -16,7 +16,7 @@ public class Mainclass03 {
 		System.out.println("Char 형 변수에 저장된 문자 : "+ ch1);
 		
 		
-		char ch2 ='金'; 
+		char ch2 ='金';
 		char ch3 ='쀍';
 		
 		int num = ch1; //char 형을 int 형으로 형변환
