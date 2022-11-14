@@ -6,6 +6,7 @@ package day02.basic;
  * 		char 변수명;
  * 	- 전 세계에서 쓰이는 문자 형태 대부분 표현 가능.
  * 
+ * 
  */ 
 public class Mainclass03 {
 	public static void main(String[] args) {

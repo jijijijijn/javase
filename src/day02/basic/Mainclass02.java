@@ -7,6 +7,7 @@ package day02.basic;
  *  	boolean 변수명;
  *  
  *  - 가질수 있는 범위 : true, false 두가지 값 저장 가능. 
+ * 
  *  
  */
 public class Mainclass02 {
