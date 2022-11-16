@@ -7,18 +7,38 @@ package day02.basic;
  * 		String 변수명;
  * 	- 문자열 저장할 수 있다.
  * 
- * 기본형 - boolean, char, byte, short, int, long, float, double
+ * 기본형 - boolean(2개, truse, false), char(문자), byte, short, int, long)-> 정수, float, double) -> 실수
+ * 참조형 - 기본형을 제외한 모든 클래스
+ * 
+ * 
  * 
  */
 
 
 public class Mainclass07 {
 	public static void main(String[] args) {
+		
+		
 		// 변수 선언과 동시에 값 대입하기
 		String str = "안녕하세요!";
 		System.out.println("srt : " + str);
 		
+		/*
+		 * h e l l o
+		 * 0 1 2 3 4 => 인덱스번호
+		 */
 		
+		String hello = "hello";
+		System.out.println("1번 인덱스 : "+ hello.charAt(1));
+		
+		String addr = "서울 특별시 서대문구 신촌";
+		boolean isContain = addr.contains("코리아아이티");
+		if(isContain) {	//true 이면 실행
+			System.out.println("addr 에는 특별시 라는 문자열이 있어요!");
+		}
+		else{
+			System.out.println("addr 에 없는 문자입니다!");
+		}
 		
 	}
 
