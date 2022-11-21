@@ -29,11 +29,13 @@ public class Mainclass01 {
 		setName("피카츄");
 		
 		String strName = getName();
-		String eMon = getEvolution("꼬부기");
 		
-		
-		System.out.println(eMon);
 		System.out.println("전역변수 name: "+strName);
+
+		
+		String eMon = getEvolution("꼬부기");
+
+		System.out.println(eMon);
 
 	}
 	//인자 x 리턴 x - 실행하고 끝나는 메소드
