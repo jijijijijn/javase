@@ -1,4 +1,4 @@
-package day03;
+package day03.loop;
 /*
  * 
  * for 반복문 연습
@@ -28,7 +28,7 @@ package day03;
        * 
       ***
      *****
-    *******
+    *******						-> if문..
      *****
       ***
        *
